@@ -20,5 +20,5 @@ converter(83)
 def converter2(weight=100):
     ponds=weight/0.45
     print(ponds)
-converter2()
-converter2(weight=5000)
+converter2()            # 因为在function的定义里面就给weight赋值了
+converter2(weight=200)  # 但也可以用别的值给weight

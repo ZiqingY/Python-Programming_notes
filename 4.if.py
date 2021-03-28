@@ -1,4 +1,4 @@
-# 基本if语句
+'''基本if语句'''
 a=10
 b=20
 if b>a:
@@ -7,7 +7,7 @@ if b>1.5*a:
     print("killingspreme")
 
 
-# 用来判断的小程序
+'''通过if elif else构建判断小程序'''
 age=int(input("please enter your age:"))  # 需要手动在output栏输入参数
 print(type(age))
 
