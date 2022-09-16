@@ -1,33 +1,33 @@
-'''创建一个Student的对象'''
+'''create an object: student'''
 class Student():
     def eat(self):
         print("can eat")
     def study(self):
         print("can study")
-# def定义对象属性
+# def for attributes of the object
 Student.eat("self")
 Student.eat("啦啦啦")
-Student.eat(1234567)  # 因为对象参数为空，所以任何参数都得到相同结果
-Student().eat()       # 此行和上面一样
+Student.eat(1234567)  # because the input is set to be N/A, hence any input should generate the same outcome
+Student().eat()       # same as above
 Student().study()
 
 print()
 
 
-'''给变量zac赋值为对象'''
+'''set zac to be an object'''
 zac=Student()
 zac.eat()
 zac.study()
 
 
-'''python里的任何东西都是对象，例如string也是对象'''
+'''everything in Python is an object'''
 fruit="apple"
 print(fruit.upper())
 
 print()
 
 
-'''例：创建对象People，属性含参数'''
+'''Example：create an object: People'''
 class People():
     def pray(self,name):
         print(name + " can pray")
@@ -39,33 +39,33 @@ People().read("Zac","everyday")
 print()
 
 
-'''例：创建对象heroes，属性含class变量和参数'''
+'''example: create object heroes'''
 class heroes():
-    name="Trump"
-    country="America"
-    def save(self):
-        print(self.name,"saves",self.country)
-    @staticmethod  # 静态属性: 不用带self，但不能引用class variable
+    name="King Louis"
+    country="France"
+    def rule(self):
+        print(self.name,"rules",self.country)
+    @staticmethod  # static: do not need self，but cannot use class variable
     def fight():
-        print("Trump fights for America")
-heroes().save()
+        print("King Louis fight for France")
+heroes().rule()
 heroes().fight()
 
 print()
 
 
-'''init使得object的功能可以代入参数'''
-class swamp():
+'''init syntax for input of objects'''
+class library():
     def __init__(self, name, source):
         self.name = name
         self.source = source
-    def corrupt_report(self):
-        print(self.name, "takes bribes from",self.source )
+    def borrow_report(self):
+        print(self.name, "borrow a book from",self.source )
 
-swamp1 = swamp('jeobiden','China')
-swamp1.corrupt_report()
-swamp2 = swamp('Barack Obama', 'White Left')
-swamp2.corrupt_report()
-# 注：这里print再第二个def的属性里，所以要输出结果必须执行第二个属性
+student1 = library('Ziqing','University of Bristol')
+student1.borrow_report()
+student2 = library('Jonny', 'Trinity College')
+student2.borrow_report()
+# Note: here print() is in the second def, therefore the outcome must come from the second def
 
 
