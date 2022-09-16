@@ -10,7 +10,7 @@ print()
 
 
 '''定义一个函数来输出字典内容'''
-dic_zac={'faith': 'Christainity', 'skills':'maths and statistics', 'hobby':'fitness'}
+dic_zac={'faith': 'Christ', 'skills':'maths and statistics', 'hobby':'fitness'}
 
 def patterns(dic_someone):
     for k,v in dic_someone.items():
@@ -24,4 +24,4 @@ print()
 def pattern(**kwargs):
     for k,v in kwargs.items():
         print(k,':',v)
-pattern(name='Trump',skills='save america',hobby='MAGA', achievement='inspire us')
+pattern(name='Ziqing',skills='data analysis',hobby='fitness', achievement='none')
