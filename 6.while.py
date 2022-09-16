@@ -1,16 +1,16 @@
 while 10<11:
-    print("DJT")
+    print("Python")
     break
 
-jeobiden=250
-while jeobiden>38:
-    print(jeobiden)
-    jeobiden=jeobiden-13
-print("jeobiden=38") # 结尾一下
+jeo=250
+while jeo>38:
+    print(jeo)
+    jeo=jeo-13
+print("jeo=38")
 
 while True:
-    jeobiden=int(input("please enter a number for Dumbass.jeo: "))
-    obama=int(input("please enter a number for Secretary.Obama: "))
-    print("jeo+obama= " +str(jeobiden+obama)) #到这里为止无限重复
+    jeo=int(input("please enter a number for president.jeo: "))
+    donald=int(input("please enter a number for formerpresident.donald: "))
+    print("jeo + donald= " +str(jeo+donald))
     break
 
