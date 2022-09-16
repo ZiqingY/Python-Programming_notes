@@ -1,4 +1,4 @@
-'''基本if语句'''
+'''basic if clause'''
 a=10
 b=20
 if b>a:
@@ -7,8 +7,8 @@ if b>1.5*a:
     print("killingspreme")
 
 
-'''通过if elif else构建判断小程序'''
-age=int(input("please enter your age:"))  # 需要手动在output栏输入参数
+'''use if, elif, else to construct little programme'''
+age=int(input("please enter your age:"))
 print(type(age))
 
 if age<18:
@@ -20,4 +20,4 @@ elif 50>age>=19:
 elif 100>age>50:
     print("you can not drink as always")
 else:
-    print("you die")
+    print("bad liver")
