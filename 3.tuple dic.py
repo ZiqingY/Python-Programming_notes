@@ -14,17 +14,17 @@ print(mytuple[0])
 print(mylist[0])
 
 
-'''查看对list和tuple可行的操作/功能(attribute)'''
+'''show attributes of list and tuple'''
 print(dir(mylist))
 print("   ")
 print(dir(mytuple))
-# 发现比如list is mutable, tuple is immutable
+# can find that list is mutable, tuple is immutable
 
 
-'''例子'''
+'''An example'''
 mylist.remove(2)
 print(mytuple)
-# print(mytuple.remove(2))  发现这行代码无法运行
+# print(mytuple.remove(2))  an error occurs to this command
 
 
 '''Dictionary'''
