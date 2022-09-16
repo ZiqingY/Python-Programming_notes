@@ -1,13 +1,13 @@
-import jeobiden
+import dataanalyst
 
-def trump():
-    print('Let s not talk about biden, let s talk about TRUMP!')
-trump()
-# 发现把jeobiden文件里面的结果也打出来了
+def datascientist():
+    print('Let s not talk about analysis, let s talk about science!')
+datascientist()
+# 发现把dataanalyst文件里面的结果也打出来了
 print()
 
 '''不涉及import的module里面的结果输出'''
-def trumpmaga():
-    print('Let s not talk about biden, let s talk about TRUMP!')
+def datascience():
+    print('Let s not talk about analysis, let s talk about science!')
 if __name__ == '__main__':
-    trump()
+    datascience()
